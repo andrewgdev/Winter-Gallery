@@ -4,9 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <meta property="og:title" content="Honest Realm">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="menu-wrapper">
+        <input type="checkbox" class="input__toggle-nav">
+        <div class="hamburger"><div></div></div>
+    <div class="header__nav_hamburger-menu">
+        <div>
+            <ul> 
+                <li class="navigation__li_home"><a href="index.html">Home</a></li>
+                <li class="navigation__li_gallery"><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<header>
+    <nav class="header__nav_flex">
+        <h1 class="header__h1">Honest Realm</h1>
+        <ul class="header__ul_flex">
+            <li class="navigation__li_home"><a href="index.html">Home</a></li>
+            <li class="navigation__li_gallery"><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2 style="text-align:center">Gallery</h2>
+    <div class="slideshow-container">
+        <h3>Homes</h3>
+        <div class="mySlides1">
+            <img src="images/GalleryHomesRedLandscape.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides1">
+            <img src="images/GalleryHomesStiltsOverWater.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides1">
+            <img src="images/HomeSnowBuriedHomeLandscape.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+
+    <div class="slideshow-container">
+        <h3>Animals</h3>
+        <div class="mySlides2">
+            <img src="images/HomeSnowTwoHorsesLandscape.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides2">
+            <img src="images/HomeSnowDeerLandscape.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides2">
+            <img src="images/HomeSnowHerdLandscape.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+
+    <div class="slideshow-container">
+        <h3>Mountains</h3>
+        <div class="mySlides3">
+            <img src="images/GalleryMountainsLakeBranchLandscape.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides3">
+            <img src="images/GalleryMountainPeakLandscape.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides3">
+            <img src="images/GalleryMountainsBoardWalkLandscape.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+    </div>
+</main>
+
+<footer>
+
+</footer>
 </body>
+<script src="gallery.js"></script>
 </html>

@@ -327,7 +327,7 @@ h3.footer__h3 {
 }
 
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1600px) {
     header {
         height: 200px;
     }
